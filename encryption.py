@@ -1,3 +1,4 @@
+#ENCRYPTION PROGRAM in Python.
 import string
 import random
 
@@ -39,3 +40,4 @@ print(f"Encrypted text: {encryptedText}")
 print(f"Real text: {realText}") 
 
        
+
