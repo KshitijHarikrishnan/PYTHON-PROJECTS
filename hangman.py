@@ -1,3 +1,4 @@
+#HANGAME GAME in Python.
 import random
 from wordlist import word_animals
 
@@ -53,3 +54,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
