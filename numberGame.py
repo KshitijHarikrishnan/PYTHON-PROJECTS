@@ -1,3 +1,4 @@
+#NUMBER GAME in Python.
 import random
 
 print("NUMBER GUESSING GAME\n")
@@ -26,5 +27,6 @@ if number.isdigit():
     else: 
         print(f"CORRECT. The answer was {answer}")
         break
+
 
 print(f"You took {tries + 1} tries")    
