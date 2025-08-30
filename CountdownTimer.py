@@ -1,14 +1,5 @@
-#NESTED LOOPS
-rows = int(input("Enter the # of rows: "))
-columns = int(input("Enter the # of columns: "))
-symbol = input("Enter a character to use: ")
+#COUNTDOWN TIMER
 
-for x in range(rows):
-    for y in range(columns):
-        print(symbol, end = "")
-    print()
-
-#DIGITAL CLOCK
 import time
 
 my_time = int(input("Enter time in sec: "))
@@ -21,6 +12,7 @@ for x in range(my_time, 0, -1):
     print(f"{hour:02}:{min:02}:{sec:02}")
     time.sleep(1)
 print("Time's Up")
+
 
 
 
