@@ -1,3 +1,4 @@
+#ROCK, PAPER, SCISSORS in Python.
 import random
 options = ("r", "p", "s")
 userChoice = input("Choose ROCK(R) or PAPER(P) or SCISSORS(S): ").lower()
@@ -40,5 +41,6 @@ if ((compChoice == "s" and userChoice == "r") or
     print("YOU WIN")
 
 """
+
 
 
